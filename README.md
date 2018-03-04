@@ -10,4 +10,4 @@
                  
 
 [1001]: https://github.com/relish-wang/PAT/blob/master/note/1001/README.md
-[1001]: https://github.com/relish-wang/PAT/blob/master/note/1002/README.md
+[1002]: https://github.com/relish-wang/PAT/blob/master/note/1002/README.md
