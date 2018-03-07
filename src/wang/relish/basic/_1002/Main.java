@@ -4,25 +4,32 @@ package wang.relish.basic._1002;
 import java.util.Scanner;
 
 /**
- * 1002. 写出这个数 (20)
  * https://www.patest.cn/contests/pat-b-practise/1002
- * Created by Relish on 2016/8/4.
+ *
+ * @author relish
+ * @since 2018/3/4
  */
 public class Main {
 
-    private static String[] pinyin = {"ling", "yi", "er", "san", "si", "wu", "liu", "qi", "ba", "jiu"};
+    private static int deal(String input) {
+        int sum = 0;
+        for (int i = 0; i < input.length(); i++) {
+            sum += input.charAt(i) - '0';
+        }
+        return sum;
+    }
+
+    private static void printNum(int sum) {
+        String[] pinyin = {"ling", "yi", "er", "san", "si", "wu", "liu", "qi", "ba", "jiu"};
+        String result = String.valueOf(sum);
+        System.out.print(pinyin[result.charAt(0) - '0']);
+        for (int i = 1; i < result.length(); i++) {
+            System.out.print(" " + pinyin[result.charAt(i) - '0']);
+        }
+    }
 
     public static void main(String[] args) {
         Scanner cin = new Scanner(System.in);
-        String s = cin.next();
-        int sum = 0;
-        for (int i = 0; i < s.length(); i++) {
-            sum += s.charAt(i) - '0';
-        }
-        s = sum + "";
-        System.out.print(pinyin[s.charAt(0) - '0']);
-        for (int i = 1; i < s.length(); i++) {
-            System.out.print(" " + pinyin[s.charAt(i) - '0']);
-        }
+        printNum(deal(cin.next()));
     }
 }

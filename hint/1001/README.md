@@ -20,4 +20,19 @@
 > 5
 
 
+## 思路
+无特殊技巧, 会使用**循环**即可
+```java
+public class Main{
+    private static int deal(int n) {
+        int count = 0;
+        while (n != 1) {
+            n = n % 2 == 0 ? n / 2 : (3 * n + 1) / 2;
+            count++;
+        }
+        return count;
+    }
+}
+```
+
 [title]: https://www.patest.cn/contests/pat-b-practise/1001
