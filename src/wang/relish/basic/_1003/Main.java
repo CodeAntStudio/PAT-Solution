@@ -1,33 +1,36 @@
 package wang.relish.basic._1003;
-// 提交时去掉 package wang.relish.basic._1003;
+// 提交时去掉 package xxx.xxx.xxx.xxx;
+
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * 1003. 我要通过！(20)
  * https://www.patest.cn/contests/pat-b-practise/1003
- * Created by Relish on 2016/8/4.
+ *
+ * @author relish
+ * @since 2018/3/5
  */
 public class Main {
 
     private static boolean isPAT(String s) {
-        if (s.matches("A*(PAT)A*") &&
-                s.substring(0, s.indexOf("PAT")).length() ==
-                        (s.substring(s.indexOf("PAT") + "PAT".length()).length())) {
-            return true;
+        if (s.matches("A*(PAT)A*")) {
+            return s.indexOf("PAT") * 2 + 3/* "PAT".length() */ == s.length();
         } else if (s.matches("A*(PA+T)A*")) {
             try {
                 String a = s.substring(0, s.indexOf("PA"));
-                Matcher m = Pattern.compile("PA*T").matcher(s);
+                Matcher m = Pattern.compile("PA+T").matcher(s);
                 String b = "";
                 if (m.find()) {
                     b = m.group();
                 }
-                b = b.replace("P", "").replace("T", "").substring(1);
-                String c = s.substring(a.length() + b.length() + 3).substring(a.length());
-                String newS = a + "P" + b + "T" + c;
-                return isPAT(newS);//递归验证
+                b = b.replace("P", "")
+                        .replace("T", "")
+                        .substring(1);// remove a 'A'
+                String c = s.substring(a.length() + b.length() + 3) // ca
+                        .substring(a.length());
+                String newS = a + "P" + b + "T" + c; // transformed string
+                return isPAT(newS); // recursion
             } catch (IndexOutOfBoundsException e) {
                 return false;
             }

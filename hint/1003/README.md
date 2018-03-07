@@ -12,7 +12,8 @@
 2. 任意形如 xPATx 的字符串都可以获得“答案正确”，其中 x 或者是空字符串，或者是仅由字母 A 组成的字符串；
 3. 如果 aPbTc 是正确的，那么 aPbATca 也是正确的，其中 a, b, c 均或者是空字符串，或者是仅由字母 A 组成的字符串。
 
-现在就请你为PAT写一个自动裁判程序，判定哪些字符串是可以获得“答案正确”的。
+现在就请你为PAT写一个自动裁判程序，判定哪些字符串是可以获得“答案正确”的。  
+
 **输入格式**： 每个测试输入包含1个测试用例。第1行给出一个自然数n (<10)，是需要检测的字符串个数。接下来每个字符串占一行，字符串长度不超过100，且不包含空格。
 
 **输出格式**：每个字符串的检测结果占一行，如果该字符串可以获得“答案正确”，则输出YES，否则输出NO。
@@ -37,5 +38,58 @@
 > NO  
 > NO  
 > NO  
+
+## 思路
+重点在于读懂**条件3**, 考察的是**递归**的思想, 最好是对**正则表达式**也有所了解。
+
+一步步来分析：
+`如果 aPbTc 是正确的`。那么什么样的`aPbTc`是正确的？从**条件1**和**条件2**知道, 正确的格式是`A*PATA*`且`PAT`两端的`字符'A'`数量一致。  
+`那么 aPbATca 也是正确的`。这句话就意味着,如果我们遇到`aPbATca`这样的字符串,只需要将它转化为`aPbATca`,判断`aPbATca`是否符合规则就行了。如果转化后的字符串仍然无法判断是否符合规则，则继续转化，直到能够判断出是否符合规则为止。
+
+就拿样例中的`AAPAATAAAA`举例说明:  
+`AAPAATAAAA` =>   
+```js
+a = "AA";
+b = "A";
+c = "AA";
+```
+
+转化一次后: `AAPATAA`  
+
+`AAPATAA`就已经是符合**条件1**和**条件2**的字符串了
+
+那么什么样的字符串是`aPbATca`格式的呢?根据**条件3**剩下的文字描述,应该是`A*PA+TA*`格式的(且**不需要**确保`PA+T`两端的`字符'A'`数量一致)
+
+
+
+```java
+public class Main{
+    private static boolean isPAT(String s) {
+        if (s.matches("A*(PAT)A*")) {
+            return s.indexOf("PAT") * 2 + 3/* "PAT".length() */ == s.length();
+        } else if (s.matches("A*(PA+T)A*")) {
+            try {
+                String a = s.substring(0, s.indexOf("PA"));
+                Matcher m = Pattern.compile("PA+T").matcher(s);
+                String b = "";
+                if (m.find()) {
+                    b = m.group();
+                }
+                b = b.replace("P", "")
+                        .replace("T", "")
+                        .substring(1);// remove a 'A'
+                String c = s.substring(a.length() + b.length() + 3) // ca
+                        .substring(a.length());
+                String newS = a + "P" + b + "T" + c; // transformed string
+                return isPAT(newS); // recursion
+            } catch (IndexOutOfBoundsException e) {
+                return false;
+            }
+        } else {
+            return false;
+        }
+    }
+}
+```
 
 [title]: https://www.patest.cn/contests/pat-b-practise/1003

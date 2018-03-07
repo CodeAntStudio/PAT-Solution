@@ -33,6 +33,15 @@ public class Main{
         }
         return sum;
     }
+    
+    private static void printNum(int sum) {
+        String[] pinyin = {"ling", "yi", "er", "san", "si", "wu", "liu", "qi", "ba", "jiu"};
+        String result = String.valueOf(sum);
+        System.out.print(pinyin[result.charAt(0) - '0']);
+        for (int i = 1; i < result.length(); i++) {
+            System.out.print(" " + pinyin[result.charAt(i) - '0']);
+        }
+    }
 }
 ```
 

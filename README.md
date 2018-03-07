@@ -9,7 +9,7 @@
 | 1003 | [我要通过！(20)][1003]                    | 
 | 1004 | [成绩排名 (20)][1004]                     | 
                  
-                 
+注: 提交代码**不要包含中文**, 注释也不行!
 
 [1001]: https://github.com/relish-wang/PAT/blob/master/hint/1001/README.md
 [1002]: https://github.com/relish-wang/PAT/blob/master/hint/1002/README.md

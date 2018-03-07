@@ -1,5 +1,5 @@
 package wang.relish.basic._1010;
-// 提交时去掉 package wang.relish.basic._1003;
+// 提交时去掉 package xxx.xxx.xxx;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,9 +7,10 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * 1010. 一元多项式求导 (25)
  * https://www.patest.cn/contests/pat-b-practise/1010
- * Created by Relish on 2016/8/6.
+ *
+ * @author relish
+ * @since 2018/3/7
  */
 public class Main {
 
