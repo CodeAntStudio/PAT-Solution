@@ -1,6 +1,6 @@
 /*
-提米：我要通过
-描述： 
+题目：我要通过
+描述：
 “答案正确”是自动判题系统给出的最令人欢喜的回复。本题属于PAT的“答案正确”大派送 —— 只要读入的字符串满足下列条件，系统就输出“答案正确”，否则输出“答案错误”。
 
 得到“答案正确”的条件是：
@@ -34,6 +34,32 @@ NO
 NO
 NO
  */
+
+/*
+function isPAT(s){
+  if(s.matches('A*PATA*')){
+    var indexOfPAT = s.indexOf('PAT');
+    return indexOfPAT*2+3===s.length;
+  }else if(s.matches('A*PA+TA*')){
+
+  }
+}
+aPbTc
+aPbATca
+
+AAPAATAAAA
+a = AA
+b = A
+c = AA
+
+AAPATAA
+
+APAAATAA
+APAATA
+APAT
+ */
+
+
 var readline = require('readline');
 
 rl = readline.createInterface({
@@ -55,5 +81,24 @@ rl.on('line', function (input) {
 });
 
 function deal(inputs) {
-
+  if (!(/^A*PA+TA*$/.test(inputs))) {
+    return 'NO'
+  } else {
+    if (/PAT/.test(inputs)) {
+      var y = inputs.split('PAT')
+      if (y[0] == y[1]) {
+        return 'YES'
+      } else {
+        return 'NO'
+      }
+    } else {
+      var a = inputs.split('P')[0]
+      var b = inputs.split('P')[1].split('AT')[0]
+      var c = inputs.split('P')[1].split('AT')[1] !== '' ? (repeatStr('A', (inputs.split('P')[1].split('AT')[1]).length - a.length)):''
+      return deal(a + 'P' + b + 'T' + c)
+    }
+  }
+}
+function repeatStr (str, n) {
+  return new Array(n + 1).join(str)
 }
