@@ -26,4 +26,45 @@
 > Mike CS991301  
 > Joe Math990112  
 
+## 思路
+无技巧, 基础题。
+
+```java
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner cin = new Scanner(System.in);
+        int n = cin.nextInt();
+        String maxName = "", minName = "", maxNum = "", minNum = "";
+        int minScore = 0, maxScore = 0;
+        for (int i = 0; i < n; i++) {
+            String name = cin.next();
+            String num = cin.next();
+            int score = Integer.parseInt(cin.next());
+            if (i == 0) {
+                maxName = name;
+                maxNum = num;
+                maxScore = score;
+                minName = name;
+                minNum = num;
+                minScore = score;
+            } else {
+                if (score > maxScore) {
+                    maxName = name;
+                    maxNum = num;
+                    maxScore = score;
+                }
+                if (score < minScore) {
+                    minName = name;
+                    minNum = num;
+                    minScore = score;
+                }
+            }
+        }
+        System.out.println(maxName + " " + maxNum);
+        System.out.println(minName + " " + minNum);
+    }
+}
+```
+
 [title]: https://www.patest.cn/contests/pat-b-practise/1004

@@ -1,11 +1,13 @@
 package wang.relish.basic._1004;
-// 提交时去掉 package xxx.xxx.xxx;
+// 提交时去掉 package xxx.xxx.xxx; 或 注释掉
+
 import java.util.Scanner;
 
 /**
- * 1004. 成绩排名 (20)
  * https://www.patest.cn/contests/pat-b-practise/1004
- * Created by Relish on 2016/8/4.
+ *
+ * @author relish
+ * @since 2018/03/06
  */
 public class Main {
 
