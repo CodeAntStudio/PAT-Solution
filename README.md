@@ -8,8 +8,9 @@
 | 1002 | [写出这个数 (20)][1002]                    | 
 | 1003 | [我要通过！(20)][1003]                     | 
 | 1004 | [成绩排名 (20)][1004]                      | 
-| 1004 | [继续(3n+1)猜想 (25)][1005]                | 
-| 1006 | [换个格式输出整数 (15)][1006]                | 
+| 1005 | [继续(3n+1)猜想 (25)][1005]                | 
+| 1006 | [换个格式输出整数 (15)][1006]               | 
+| 1007 | [素数对猜想 (20)][1007]                    | 
                  
 注: 提交代码**不要包含中文**, 注释也不行!
 
@@ -19,3 +20,4 @@
 [1004]: https://github.com/relish-wang/PAT/blob/master/hint/1004/README.md
 [1005]: https://github.com/relish-wang/PAT/blob/master/hint/1005/README.md
 [1006]: https://github.com/relish-wang/PAT/blob/master/hint/1006/README.md
+[1006]: https://github.com/relish-wang/PAT/blob/master/hint/1007/README.md
