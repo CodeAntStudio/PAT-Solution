@@ -20,4 +20,4 @@
 [1004]: https://github.com/relish-wang/PAT/blob/master/hint/1004/README.md
 [1005]: https://github.com/relish-wang/PAT/blob/master/hint/1005/README.md
 [1006]: https://github.com/relish-wang/PAT/blob/master/hint/1006/README.md
-[1006]: https://github.com/relish-wang/PAT/blob/master/hint/1007/README.md
+[1007]: https://github.com/relish-wang/PAT/blob/master/hint/1007/README.md
