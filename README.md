@@ -11,6 +11,7 @@
 | 1005 | [继续(3n+1)猜想 (25)][1005]                | 
 | 1006 | [换个格式输出整数 (15)][1006]               | 
 | 1007 | [素数对猜想 (20)][1007]                    | 
+| 1008 | [数组元素循环右移问题 (20)][1008]                    | 
                  
 注: 提交代码**不要包含中文**, 注释也不行!
 
@@ -21,3 +22,4 @@
 [1005]: https://github.com/relish-wang/PAT/blob/master/hint/1005/README.md
 [1006]: https://github.com/relish-wang/PAT/blob/master/hint/1006/README.md
 [1007]: https://github.com/relish-wang/PAT/blob/master/hint/1007/README.md
+[1007]: https://github.com/relish-wang/PAT/blob/master/hint/1008/README.md
