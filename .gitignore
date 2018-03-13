@@ -1,5 +1,4 @@
 *.iml
 .idea/
 out/
-src/wang/relish/Main.java
 .DS_Store

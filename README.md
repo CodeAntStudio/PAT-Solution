@@ -17,15 +17,15 @@
 | 1011 | [A+B和C (15)][1011]                       |
 | 1012 | [数字分类 (20)][1012]                      |
 
-[1001]: https://github.com/taryn2016/coding/blob/master/PAT/1001/README.md
-[1002]: https://github.com/taryn2016/coding/blob/master/PAT/1002/README.md
-[1003]: https://github.com/taryn2016/coding/blob/master/PAT/1003/README.md
-[1004]: https://github.com/taryn2016/coding/blob/master/PAT/1004/README.md
-[1005]: https://github.com/taryn2016/coding/blob/master/PAT/1005/README.md
-[1006]: https://github.com/taryn2016/coding/blob/master/PAT/1006/README.md
-[1007]: https://github.com/taryn2016/coding/blob/master/PAT/1007/README.md
-[1008]: https://github.com/taryn2016/coding/blob/master/PAT/1008/README.md
-[1009]: https://github.com/taryn2016/coding/blob/master/PAT/1009/README.md
-[1010]: https://github.com/taryn2016/coding/blob/master/PAT/1010/README.md
-[1011]: https://github.com/taryn2016/coding/blob/master/PAT/1011/README.md
-[1012]: https://github.com/taryn2016/coding/blob/master/PAT/1012/README.md
+[1001]: https://github.com/taryn2016/coding/blob/master/hint/1001/README.md
+[1002]: https://github.com/taryn2016/coding/blob/master/hint/1002/README.md
+[1003]: https://github.com/taryn2016/coding/blob/master/hint/1003/README.md
+[1004]: https://github.com/taryn2016/coding/blob/master/hint/1004/README.md
+[1005]: https://github.com/taryn2016/coding/blob/master/hint/1005/README.md
+[1006]: https://github.com/taryn2016/coding/blob/master/hint/1006/README.md
+[1007]: https://github.com/taryn2016/coding/blob/master/hint/1007/README.md
+[1008]: https://github.com/taryn2016/coding/blob/master/hint/1008/README.md
+[1009]: https://github.com/taryn2016/coding/blob/master/hint/1009/README.md
+[1010]: https://github.com/taryn2016/coding/blob/master/hint/1010/README.md
+[1011]: https://github.com/taryn2016/coding/blob/master/hint/1011/README.md
+[1012]: https://github.com/taryn2016/coding/blob/master/hint/1012/README.md
