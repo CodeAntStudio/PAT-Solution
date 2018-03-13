@@ -14,7 +14,8 @@
 | 1008 | [数组元素循环右移问题 (20)][1008]           | 
 | 1009 | [说反话 (20)][1009]                       | 
 | 1010 | [一元多项式求导 (25)][1010]                | 
-| 1011 | [A+B和C (15)][1011]                | 
+| 1011 | [A+B和C (15)][1011]                       | 
+| 1012 | [数字分类 (20)][1012]                       | 
                  
 注: 提交代码**不要包含中文**, 注释也不行!
 
@@ -29,3 +30,4 @@
 [1009]: https://github.com/relish-wang/PAT/blob/master/hint/1009/README.md
 [1010]: https://github.com/relish-wang/PAT/blob/master/hint/1010/README.md
 [1011]: https://github.com/relish-wang/PAT/blob/master/hint/1011/README.md
+[1012]: https://github.com/relish-wang/PAT/blob/master/hint/1012/README.md
