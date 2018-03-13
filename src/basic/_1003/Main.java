@@ -1,4 +1,4 @@
-package wang.relish.basic._1003;
+package basic._1003;
 // 提交时去掉 package xxx.xxx.xxx.xxx;
 
 import java.util.Scanner;

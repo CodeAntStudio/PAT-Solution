@@ -1,4 +1,4 @@
-package wang.relish.basic._1005;
+package basic._1005;
 // remove the line of `package xxx.xxx.xxx.xxx;` when you commit it
 
 import java.util.*;

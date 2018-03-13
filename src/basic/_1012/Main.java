@@ -1,4 +1,4 @@
-package wang.relish.basic._1012;
+package basic._1012;
 // remove the line of `package xxx.xxx.xxx.xxx;` when you commit it
 
 import java.util.Locale;
