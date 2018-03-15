@@ -30,4 +30,4 @@
 [1010]: https://github.com/taryn2016/coding/blob/master/hint/1010/README.md
 [1011]: https://github.com/taryn2016/coding/blob/master/hint/1011/README.md
 [1012]: https://github.com/taryn2016/coding/blob/master/hint/1012/README.md
-[1012]: https://github.com/taryn2016/coding/blob/master/hint/1013/README.md
+[1013]: https://github.com/taryn2016/coding/blob/master/hint/1013/README.md
