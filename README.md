@@ -16,7 +16,7 @@
 | 1010 | [一元多项式求导 (25)][1010]                 |
 | 1011 | [A+B和C (15)][1011]                       |
 | 1012 | [数字分类 (20)][1012]                      |
-| 1012 | [数素数 (20)][1013]                        |
+| 1013 | [数素数 (20)][1013]                        |
 
 [1001]: https://github.com/taryn2016/coding/blob/master/hint/1001/README.md
 [1002]: https://github.com/taryn2016/coding/blob/master/hint/1002/README.md
