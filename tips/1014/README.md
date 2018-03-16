@@ -13,10 +13,10 @@
 在一行中输出约会的时间，格式为“DAY HH:MM”，其中“DAY”是某星期的3字符缩写，即MON表示星期一，TUE表示星期二，WED表示星期三，THU表示星期四，FRI表示星期五，SAT表示星期六，SUN表示星期日。题目输入保证每个测试存在唯一解。
 
 **输入样例**：
-> 3485djDkxh4hhGE
-> 2984akDfkkkkggEdsb
-> s&hgsfdk
-> d&Hyscvnm
+> 3485djDkxh4hhGE  
+> 2984akDfkkkkggEdsb  
+> s&hgsfdk  
+> d&Hyscvnm  
 
 **输出样例**：
 > THU 14:04
