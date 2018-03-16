@@ -60,11 +60,11 @@
 [1011-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1011/1011.js
 [1012-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1012/1012.js
 [1013-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1013/1013.js
-[1014-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1013/1014.js
-[1015-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1013/1015.js
-[1016-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1013/1016.js
-[1017-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1013/1017.js
-[1018-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1013/1018.js
+[1014-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1014/1014.js
+[1015-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1015/1015.js
+[1016-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1016/1016.js
+[1017-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1017/1017.js
+[1018-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1018/1018.js
 
 [1001-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1001/Main.java
 [1002-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1002/Main.java
