@@ -20,7 +20,8 @@
 | 1014 | [福尔摩斯的约会 (20)][1014]          |              |              | [✅][1014-js] |                 |
 | 1015 | [德才论 (25)][1015]                 |              |              | [❌][1015-js] |                 |
 | 1016 | [部分A+B (15)][1016]               |              |              | [✅][1016-js] |                 |
-| 1017 | [锤子剪刀布 (20)][1017]             |              |              | [❌][1017-js] |                 |
+| 1017 | [A除以B (20)][1017]                |              |              | [✅][1017-js] |                 |
+| 1018 | [锤子剪刀布 (20)][1018]             |              |              | [❌][1017-js] |                 |
 
 [1001]: https://github.com/taryn2016/coding/blob/master/tips/1001/README.md
 [1002]: https://github.com/taryn2016/coding/blob/master/tips/1002/README.md
@@ -35,10 +36,11 @@
 [1011]: https://github.com/taryn2016/coding/blob/master/tips/1011/README.md
 [1012]: https://github.com/taryn2016/coding/blob/master/tips/1012/README.md
 [1013]: https://github.com/taryn2016/coding/blob/master/tips/1013/README.md
-[1013]: https://github.com/taryn2016/coding/blob/master/tips/1014/README.md
-[1013]: https://github.com/taryn2016/coding/blob/master/tips/1015/README.md
-[1013]: https://github.com/taryn2016/coding/blob/master/tips/1016/README.md
-[1013]: https://github.com/taryn2016/coding/blob/master/tips/1017/README.md
+[1014]: https://github.com/taryn2016/coding/blob/master/tips/1014/README.md
+[1015]: https://github.com/taryn2016/coding/blob/master/tips/1015/README.md
+[1016]: https://github.com/taryn2016/coding/blob/master/tips/1016/README.md
+[1017]: https://github.com/taryn2016/coding/blob/master/tips/1017/README.md
+[1018]: https://github.com/taryn2016/coding/blob/master/tips/1018/README.md
 
 [1012-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1012/1012.c
 [1013-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1013/1013.cpp
@@ -58,10 +60,11 @@
 [1011-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1011/1011.js
 [1012-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1012/1012.js
 [1013-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1013/1013.js
-[1013-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1013/1014.js
-[1013-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1013/1015.js
-[1013-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1013/1016.js
-[1013-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1013/1017.js
+[1014-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1013/1014.js
+[1015-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1013/1015.js
+[1016-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1013/1016.js
+[1017-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1013/1017.js
+[1018-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1013/1018.js
 
 [1001-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1001/Main.java
 [1002-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1002/Main.java
