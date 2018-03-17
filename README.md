@@ -17,7 +17,7 @@
 | 1011 | [A+B和C (15)][1011]                |              |              | [✅][1011-js] | [✅][1011-java] |
 | 1012 | [数字分类 (20)][1012]               | [✅][1012-c] | [✅][1012-py] | [✅][1012-js] | [❌][1012-java] |
 | 1013 | [数素数 (20)][1013]                 | [✅][1013-c] |              | [✅][1013-js] | [❌][1013-java] |
-| 1014 | [福尔摩斯的约会 (20)][1014]          |              |              | [✅][1014-js] |                 |
+| 1014 | [福尔摩斯的约会 (20)][1014]          | [✅][1014-c] |              | [✅][1014-js] | [❌][1014-java] |
 | 1015 | [德才论 (25)][1015]                 |              |              | [❌][1015-js] |                 |
 | 1016 | [部分A+B (15)][1016]               |              |              | [✅][1016-js] |                 |
 | 1017 | [A除以B (20)][1017]                |              |              | [✅][1017-js] |                 |
@@ -44,6 +44,7 @@
 
 [1012-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1012/1012.c
 [1013-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1013/1013.cpp
+[1014-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1013/1014.c
 
 [1012-py]: https://github.com/taryn2016/coding/blob/master/src/basic/_1012/1012.py
 
@@ -79,3 +80,4 @@
 [1011-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1011/Main.java
 [1012-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1012/Main.java
 [1013-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1013/Main.java
+[1014-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1014/Main.java

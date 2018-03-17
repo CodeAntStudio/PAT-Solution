@@ -24,10 +24,54 @@
 ## 思路
 无特殊技巧。题目本身没有难度。
 
-
+- **C**(1ms), AC
 - **JavaScript**(53~63ms), AC。
+- **Java**(96ms~99ms), 有两个用例超时
 
+### C
+```c
+#include<stdio.h>
+#include<string.h>
+int main(){
+    char days[7][4]={"MON","TUE","WED","THU","FRI","SAT","SUN"};
+    char s1[80],s2[80],s3[80],s4[80];
+    scanf("%s%s%s%s",s1,s2,s3,s4);
+    int week = -1;
+    int hour = -1;
+    int count = 0;
 
+    int len12 = strlen(s1) > strlen(s2) ? strlen(s2) : strlen(s1);
+    for (int i = 0; i < len12; i++) {
+        if (s1[i] == s2[i]) {
+            if (count == 0) {
+                if (s1[i] >= 'A' && s1[i] <= 'G') {
+                    week = s1[i] - 'A';
+                    count++;
+                }
+            } else {
+                if (s1[i] >= 'A' && s1[i] <= 'N') {
+                    hour = s1[i] - 'A' + 10;
+                    break;
+                } else if (s1[i] >= '0' && s1[i] <= '9') {
+                    hour = s1[i] - '0';
+                    break;
+                }
+            }
+        }
+    }
+
+    int min = -1;
+    int len34 = strlen(s3) > strlen(s4)? strlen(s4) : strlen(s3);
+    for (int i = 0; i < len34; i++) {
+        if (s3[i] == s4[i] && (s3[i] >= 'a' && s3[i] <= 'z' || s3[i] >= 'A' && s3[i] <= 'Z')) {
+            min = i;
+            break;
+        }
+    }
+    printf("%s %02d:%02d\n",days[week],hour,min);
+    return 0;
+}
+```
 
 ### JavaScript
 ```javascript
@@ -80,4 +124,54 @@ function deal(str1,str2,str3,str4) {
   return week+ ' '+hours + ':'+minute
 }
 ```
+
+### JavaScript
+```java
+public class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        char[] s1 = in.next().toCharArray();
+        char[] s2 = in.next().toCharArray();
+        char[] s3 = in.next().toCharArray();
+        char[] s4 = in.next().toCharArray();
+
+        int week = -1;
+        int hour = -1;
+        int count = 0;
+
+        int len12 = s1.length > s2.length ? s2.length : s1.length;
+        for (int i = 0; i < len12; i++) {
+            if (s1[i] == s2[i]) {
+                if (count == 0) {
+                    if (s1[i] >= 'A' && s1[i] <= 'G') {
+                        week = s1[i] - 'A';
+                        count++;
+                    }
+                } else {
+                    if (s1[i] >= 'A' && s1[i] <= 'N') {
+                        hour = s1[i] - 'A' + 10;
+                        break;
+                    } else if (s1[i] >= '0' && s1[i] <= '9') {
+                        hour = s1[i] - '0';
+                        break;
+                    }
+                }
+            }
+        }
+
+        int min = -1;
+        int len34 = s3.length > s4.length ? s4.length : s3.length;
+        for (int i = 0; i < len34; i++) {
+            if (s3[i] == s4[i] && (s3[i] >= 'a' && s3[i] <= 'z' || s3[i] >= 'A' && s3[i] <= 'Z')) {
+                min = i;
+                break;
+            }
+        }
+        String[] _WEEK = {"MON", "TUE", "WED", "THU", "FIR", "SAT", "SUN"};
+        String weekStr = _WEEK[week];
+        System.out.format(Locale.ENGLISH, "%s %02d:%02d\n", weekStr, hour, min);
+    }
+}
+```
+
 [title]: https://www.patest.cn/contests/pat-b-practise/1014
