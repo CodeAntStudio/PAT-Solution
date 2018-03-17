@@ -20,6 +20,7 @@
 
 ## 思路
 无特殊技巧。**循环**、**数组**。
+### Java
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -30,6 +31,14 @@ public class Main {
         }
         System.out.println(strs[0]);
     }
+}
+```
+### avaScript
+直接字符串转换为数组，倒个序，然后转换回字符串
+```JavaScript
+function deal(str) {
+  var result = str.split(' ').reverse().join(' ')
+  return result
 }
 ```
 [title]: https://www.patest.cn/contests/pat-b-practise/1009

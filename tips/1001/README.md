@@ -22,6 +22,7 @@
 
 ## 思路
 无特殊技巧, 会使用**循环**即可
+### Java
 ```java
 public class Main{
     private static int deal(int n) {
@@ -34,5 +35,18 @@ public class Main{
     }
 }
 ```
-
+### JavaScript
+可以用**递归**  52ms-54ms
+```JavaScript
+  function deal(inputs, num) {
+    if (inputs == 1) {
+      return num
+    }
+    if (inputs % 2 == 0) {
+      return deal(inputs / 2, num + 1)
+    } else {
+      return deal((3 * inputs + 1) / 2, num + 1)
+    }
+  }
+```
 [title]: https://www.patest.cn/contests/pat-b-practise/1001

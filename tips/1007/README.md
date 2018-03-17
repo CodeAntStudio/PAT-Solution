@@ -21,6 +21,7 @@
 > 4
 
 ## 思路
+### Java
 无特殊技巧。对**素数判断**的要求也不高。
 ```java
 public class Main {
@@ -34,5 +35,44 @@ public class Main {
         return true;
     }
 }
+```
+### JavaScript
+```JavaScript
+//判断素数
+function isPrime(n) {
+  if (n < 2) {
+    return false
+  }
+  if (n === 2) {
+    return true
+  } else if(n%2 === 0){
+    return false
+  }
+  var squareRoot=Math.sqrt(n);
+   for(var i=3;i<=squareRoot;i+=2) {
+     if (n%i===0) {
+       return false;
+     };
+  }
+  return true;
+}
+
+function deal(input) {
+  var num = 0
+  var numarr = []
+  for (var i = 1; i <= input; i++) {
+    if (isPrime(i)) {
+      numarr.push(i)
+    }
+  }
+  for (var i = 1; i < numarr.length; i++) {
+    if (numarr[i] - numarr[i - 1] === 2) {
+      num += 1
+    }
+  }
+  var result = num
+  return result
+}
+
 ```
 [title]: https://www.patest.cn/contests/pat-b-practise/1007

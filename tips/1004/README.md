@@ -28,7 +28,7 @@
 
 ## 思路
 无技巧, 基础题。
-
+### Java
 ```java
 public class Main {
 
@@ -64,6 +64,32 @@ public class Main {
         System.out.println(maxName + " " + maxNum);
         System.out.println(minName + " " + minNum);
     }
+}
+```
+### JavaScript
+```JavaScript
+function deal(inputs) {
+  var scoreArr = []
+  for (var item of inputs) {
+    var arr = item.split(' ')
+    scoreArr.push(arr[2])
+  }
+  var maxIndex = 0
+  var minIndex = 0
+  var maxScore = scoreArr[0]
+  var minScore = scoreArr[0]
+  for(var i = 1; i < scoreArr.length; i++) {
+    if (+scoreArr[i] > +maxScore) {
+      maxIndex = i
+      maxScore = scoreArr[i]
+    }
+    if (+scoreArr[i] < +minScore) {
+      minIndex = i
+      minScore = scoreArr[i]
+    }
+  }
+  var result = [inputs[maxIndex].split(' ').slice(0,2).join(' '), inputs[minIndex].split(' ').slice(0,2).join(' ')]
+  return result
 }
 ```
 
