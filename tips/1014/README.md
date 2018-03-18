@@ -30,26 +30,12 @@
 
 
 ### JavaScript
+javascript的 **parseInt** 的第二个参数可以是进制数,所以可以通过parseInt进行字母和数字的转换
 ```javascript
-var readline = require('readline')
+parseInt('D', 16) // 13
+```
 
-rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-})
-var inputArr = []
-rl.on('line', function(input) {
-  inputArr.push(input)
-  var str1 = inputArr[0]
-  var str2 = inputArr[1]
-  var str3 = inputArr[2]
-  var str4 = inputArr[3]
-  if (inputArr.length === 4) {
-    var reslut = deal(str1,str2,str3,str4)
-    console.log(reslut);
-    rl.close()
-  }
-})
+```javascript
 function deal(str1,str2,str3,str4) {
   var week = ''
   var hours = ''

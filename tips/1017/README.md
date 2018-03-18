@@ -26,21 +26,8 @@
 
 
 ### JavaScript
+用代码做除法
 ```javascript
-var readline = require('readline')
-
-rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-})
-
-rl.on('line', function(input) {
-  var A = input.split(' ')[0]
-  var B = input.split(' ')[1]
-  var result = deal(A, B)
-  console.log(result);
-  rl.close()
-})
 function deal(A, B) {
   if((+A) < (+B)) {
     return '0 '+A
