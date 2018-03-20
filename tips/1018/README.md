@@ -43,25 +43,6 @@
 
 ### JavaScript
 ```javascript
-var readline = require('readline')
-
-rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-})
-var inputArr = []
-rl.on('line', function(input) {
-  inputArr.push(input)
-  var N = +inputArr[0]
-  if (inputArr.length === (N+1)) {
-    var result = deal(inputArr.slice(1))
-    for (var i = 0; i < result.length; i++) {
-      console.log(result[i]);
-    }
-    rl.close()
-  }
-})
-
 function deal(input) {
   var AWin = 0 //A赢的次数
   var ADraw = 0 // 平局次数

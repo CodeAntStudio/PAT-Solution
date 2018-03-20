@@ -20,6 +20,7 @@
 
 ## 思路
 无特殊技巧。注意特殊情况考虑即可。
+### Java
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -44,6 +45,26 @@ public class Main {
         }
         System.out.println(Arrays.toString(result.toArray(new Integer[result.size()])).replaceAll("\\[|\\]|,", ""));
     }
+}
+```
+### JavaScript
+一样的逻辑，JavaScript运行错误
+```JavaScript
+function deal(str) {
+  var arr = str.trim().split(' ')
+  var arr1 = []
+  if (arr.length === 2 && +arr[1] === 0) {
+    arr1.push(0,0)
+  } else {
+    for (var i = 0; i < arr.length; i += 2) {
+      if (+arr[i+1] === 0) {
+        continue
+      }
+      arr1.push(arr[i]*arr[i + 1])
+      arr1.push(arr[i + 1] - 1)
+    }
+  }
+  return arr1.join(' ')
 }
 ```
 [title]: https://www.patest.cn/contests/pat-b-practise/1010

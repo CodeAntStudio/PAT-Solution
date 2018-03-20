@@ -33,6 +33,7 @@ long的范围为[-2<sup>63</sup>, 2<sup>63</sup>-1]
 
 根据题目描述, a+b的范围为[-2<sup>32</sup>, 2<sup>32</sup>]。因此使用long类型就足够了。
 
+### Java
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -57,6 +58,36 @@ public class Main {
         }
         System.out.println(Arrays.toString(result.toArray(new Integer[result.size()])).replaceAll("\\[|\\]|,", ""));
     }
+}
+```
+### JavaScript
+```JavaScript
+var readline = require('readline');
+
+rl = readline.createInterface({
+   input: process.stdin,
+   output: process.stdout
+});
+var inputArr = [];
+rl.on('line', function (input) {
+    inputArr.push(input);
+    var nline = +inputArr[0]
+    var arr = inputArr.slice(1);
+    if (inputArr.length === nline + 1) {
+      for(var i = 0; i < nline; i++) {
+        console.log('Case #' + (i+1) + ': '+ deal(arr[i].trim().split(' ')));
+      }
+      rl.close();
+    }
+
+});
+
+function deal(arr) {
+  if (+arr[0] + +arr[1] > +arr[2]) {
+    return true
+  } else {
+    return false
+  }
 }
 ```
 [title]: https://www.patest.cn/contests/pat-b-practise/1011

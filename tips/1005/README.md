@@ -43,8 +43,8 @@
 发现有6、7这些数  
 最后排个序, 输出`7 6`
 
-
-### 1 搜集某个数覆盖的数
+### Java
+#### 1 搜集某个数覆盖的数
 ```java
 public class Main {
     private static Set<Integer> set = new HashSet<>();
@@ -61,7 +61,7 @@ public class Main {
 }
 ```
 
-### 2 找出不被覆盖的数, 并排序
+#### 2 找出不被覆盖的数, 并排序
 ```java
 public class Main{
     private static List<Integer> deal(int[] arr) {
@@ -78,6 +78,37 @@ public class Main{
         Collections.reverse(result);
         return result;
     }
+}
+```
+### JavaScript
+思路一样，覆盖数需要自己做数组去重
+```JavaScript
+// 找出一个数的覆盖数,并存入数组后做去重操作
+function deal(input, arr) {
+  if (input === 1) {
+    return arr
+  }
+  if (input % 2 === 0) {
+    arr.push(input/2)
+    return deal(input/2, arr)
+  } else {
+    arr.push((3*input + 1)/2)
+    return deal((3*input + 1)/2, arr)
+  }
+}
+
+// 数组去重
+function distinct(arr) {
+  var arr1 = []
+  for (var i = 0; i < arr.length; i++) {
+    for(var j = i+1; j < arr.length; j++) {
+      if (arr[j] === arr[i]) {
+        j = ++i
+      }
+    }
+    arr1.push(arr[i])
+  }
+  return arr1
 }
 ```
 [title]: https://www.patest.cn/contests/pat-b-practise/1005

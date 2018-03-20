@@ -134,6 +134,7 @@ int main(){
 
 
 ### JavaScript
+用了快速排序也超时
 ```javascript
 var readline = require('readline')
 

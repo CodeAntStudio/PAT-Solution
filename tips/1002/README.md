@@ -22,10 +22,10 @@
 > long范围: [-2<sup>63</sup> , 2<sup>63</sup>-1] => [-9223372036854775808, 9223372036854775807]  19位数
 
 这两个范围对比输入要求的100位数, 都是小巫见大巫。
-
+### Java
 ```java
 public class Main{
-    
+
     private static int deal(String input) {
         int sum = 0;
         for (int i = 0; i < input.length(); i++) {
@@ -33,7 +33,7 @@ public class Main{
         }
         return sum;
     }
-    
+
     private static void printNum(int sum) {
         String[] pinyin = {"ling", "yi", "er", "san", "si", "wu", "liu", "qi", "ba", "jiu"};
         String result = String.valueOf(sum);
@@ -44,5 +44,21 @@ public class Main{
     }
 }
 ```
-
+### JavaScript
+```JavaScript
+  function deal(inputs) {
+    var arr = inputs.split('')
+    var sum = 0
+    for(var item of arr) {
+      sum += +item
+    }
+    var sumArr = (sum + '').split('')
+    var arr = ['ling','yi', 'er', 'san', 'si', 'wu', 'liu', 'qi', 'ba', 'jiu']
+    var str = ''
+    for(var item of sumArr) {
+      str += arr[item] + ' '
+    };
+    return str.trim()
+  }
+```
 [title]: https://www.patest.cn/contests/pat-b-practise/1002

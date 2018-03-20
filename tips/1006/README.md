@@ -23,10 +23,11 @@
 
 **输出样例2**：
 > SS123
- 
+
 
 ## 思路
 无特殊技巧, 会使用**循环**即可
+### Java
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -44,6 +45,27 @@ public class Main {
         }
         System.out.println(sb.toString());
     }
+}
+```
+### JavaScript
+简单的字符串操作
+```JavaScript
+function deal(inputs) {
+  var numArr = inputs.split('').reverse()
+  var strArr = ['', 'S', 'B']
+  var result = ''
+  for (var i = 0; i < numArr.length; i++) {
+    result += repeat(strArr[i], +numArr[i])
+  }
+  var result = result.split('').reverse().join('')
+  for (var i = 1; i <= numArr[0]; i++) {
+    result += ''+i
+  }
+  return result
+}
+//重复某个字符串n次
+function repeat(str , n){
+  return new Array(n+1).join(str);
 }
 ```
 [title]: https://www.patest.cn/contests/pat-b-practise/1006
