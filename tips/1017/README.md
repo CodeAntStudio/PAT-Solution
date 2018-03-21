@@ -18,13 +18,44 @@
 > 17636684150141093474 3
 
 ## 思路
-无特殊技巧。题目本身没有难度。
+大数除法。
 
-
+- **C**(1~2ms),AC。
 - **JavaScript**(53~63ms), AC。
+- **Java**(超时)。
 
 
-
+### C
+```c
+#include <stdio.h>
+#include <string.h>
+void f(char s[], int n) {
+    int i,r[strlen(s)];
+    int m = 0;
+    for (int i = 0; i < strlen(s); i++) {
+        r[i] = (m * 10 + s[i] - '0') / n;
+        m = (m * 10 + s[i] - '0') % n;
+    }
+    int start = 0;
+    for(i=0; i<strlen(s);i++){
+        if(r[i]!=0){
+            start=i;
+            break;
+        }
+    }
+    for(i=start;i<strlen(s);i++){
+        printf("%d",r[i]);
+    }
+    printf(" %d\n",m);
+}
+int main(){
+    char s[1005];
+    int n;
+    scanf("%s %d",s,&n);
+    f(s,n);
+    return 0;
+}
+```
 ### JavaScript
 用代码做除法
 ```javascript
@@ -49,4 +80,17 @@ function deal(A, B) {
   return x +' ' + remainder
 }
 ```
+
+### Java
+```java
+public class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        BigInteger a = new BigInteger(in.next());
+        BigInteger b = new BigInteger(in.next());
+        System.out.println(a.divide(b) + " " + a.mod(b));
+    }
+}
+```
+
 [title]: https://www.patest.cn/contests/pat-b-practise/1017
