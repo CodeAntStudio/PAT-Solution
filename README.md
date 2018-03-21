@@ -21,7 +21,7 @@
 | 1015 | [德才论 (25)][1015]                 | [✅][1015-c] |              | [❌][1015-js] |                 |
 | 1016 | [部分A+B (15)][1016]               | [✅][1016-c] |              | [✅][1016-js] |  [❌][1016-java] |
 | 1017 | [A除以B (20)][1017]                | [✅][1017-c] |              | [✅][1017-js] | [❌][1017-java]  |
-| 1018 | [锤子剪刀布 (20)][1018]             |              |              | [❌][1017-js] |                 |
+| 1018 | [锤子剪刀布 (20)][1018]             | [✅][1018-c] |              | [❌][1017-js] |                 |
 
 [1001]: https://github.com/taryn2016/coding/blob/master/tips/1001/README.md
 [1002]: https://github.com/taryn2016/coding/blob/master/tips/1002/README.md
@@ -48,6 +48,7 @@
 [1015-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1015/1015.cpp
 [1016-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1016/1016.c
 [1017-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1017/1017.c
+[1018-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1018/1018.c
 
 [1012-py]: https://github.com/taryn2016/coding/blob/master/src/basic/_1012/1012.py
 
