@@ -1,7 +1,6 @@
 # <img src="https://github.com/taryn2016/PAT-Solution/blob/master/res/img/logo.gif" alt="PAT-Solution" width="80" height="80" align="bottom"/>PAT-Solution
 本仓库为PAT练习题题解记录，会持续更新各种语言的题解。同时也欢迎使用各种语言的同好♂们加入此项目，为开源贡献力量。
 
-- 计算机程序设计能力考试(PAT)简介
 > [计算机程序设计能力考试](https://www.patest.cn/)（Programming Ability Test，简称PAT）旨在通过统一组织的在线考试及自动评测方法客观地评判考生的算法设计与程序设计实现能力，科学的评价计算机程序设计人才，为企业选拔人才提供参考标准。
 >
 > 考试遵循统一考试大纲、统一考试命题、统一考试评分标准、统一颁发证书的原则，由考试中心负责考试的组织、日常管理和具体实施工作。每年分春、秋、冬季组织3次统一考试，大约分别在每年2-3月、8-9月、11-12月举行。每场考试分三个难度级别：[顶级(Top Level)](https://www.patest.cn/contests/pat-t-practise)、[甲级(Advanced Level)](https://www.patest.cn/contests/pat-a-practise)、[乙级(Basic Level)](https://www.patest.cn/contests/pat-b-practise)。
@@ -30,11 +29,12 @@
 | 1015 | [德才论 (25)][1015]             | [✅][1015-c] |              | [❌][1015-js] |                |
 | 1016 | [部分A+B (15)][1016]           | [✅][1016-c] |              | [✅][1016-js] | [❌][1016-java] |
 | 1017 | [A除以B (20)][1017]            | [✅][1017-c] |              | [✅][1017-js] | [❌][1017-java] |
-| 1018 | [锤子剪刀布 (20)][1018]           | [✅][1018-c] |              | [❌][1017-js] |                |
+| 1018 | [锤子剪刀布 (20)][1018]           | [✅][1018-c] |              | [❌][1018-js] |                |
+| 1019 | [数字黑洞 (20)][1019]           | [✅][1019-c] |              |                |                |
 
 ## 贡献者名单
 - [@Taryn](https://github.com/taryn2016), 提供JavaScript题解。
-- [@WangXin](https://github.com/relish-wang), 提供Java题解及部分C/C++/Python题解。
+- [@WangXin](https://github.com/relish-wang), 提供C/C++/Python/Java题解。
 
 [logo]: https://github.com/taryn2016/PAT-Solution/blob/master/res/img/logo.gif
 
@@ -56,6 +56,7 @@
 [1016]: https://github.com/taryn2016/coding/blob/master/tips/1016/README.md
 [1017]: https://github.com/taryn2016/coding/blob/master/tips/1017/README.md
 [1018]: https://github.com/taryn2016/coding/blob/master/tips/1018/README.md
+[1019]: https://github.com/taryn2016/coding/blob/master/tips/1019/README.md
 
 [1012-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1012/1012.c
 [1013-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1013/1013.cpp
@@ -64,6 +65,7 @@
 [1016-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1016/1016.c
 [1017-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1017/1017.c
 [1018-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1018/1018.c
+[1019-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1019/1019.cpp
 
 [1012-py]: https://github.com/taryn2016/coding/blob/master/src/basic/_1012/1012.py
 
