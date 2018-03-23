@@ -58,6 +58,7 @@
 [1017]: https://github.com/taryn2016/coding/blob/master/tips/1017/README.md
 [1018]: https://github.com/taryn2016/coding/blob/master/tips/1018/README.md
 [1019]: https://github.com/taryn2016/coding/blob/master/tips/1019/README.md
+[1020]: https://github.com/taryn2016/coding/blob/master/tips/1020/README.md
 
 [1012-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1012/1012.c
 [1013-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1013/1013.cpp
