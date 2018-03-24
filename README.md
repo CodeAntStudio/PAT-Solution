@@ -34,8 +34,8 @@
 | 1020 | [月饼 (25)][1020]             | [✅][1020-c] |              |                |                |
 
 ## 贡献者名单
-- [@Taryn](https://github.com/taryn2016), 提供JavaScript题解。
-- [@WangXin](https://github.com/relish-wang), 提供C/C++/Python/Java题解。
+- 感谢[@Taryn](https://github.com/taryn2016), 提供JavaScript题解。
+- 感谢[@WangXin](https://github.com/relish-wang), 提供C/C++/Python/Java题解。
 
 [logo]: https://github.com/taryn2016/PAT-Solution/blob/master/res/img/logo.gif
 
