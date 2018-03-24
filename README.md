@@ -32,7 +32,8 @@
 | 1018 | [锤子剪刀布 (20)][1018]           | [✅][1018-c] |              | [❌][1018-js] |                |
 | 1019 | [数字黑洞 (20)][1019]           | [✅][1019-c] |              |                |                |
 | 1020 | [月饼 (25)][1020]             | [✅][1020-c] |              |                |                |
-
+| 1021 | [个位数统计 (15)][1021]         | [✅][1021-c] |              |                | [✅][1021-java]  |
+ 
 ## 贡献者名单
 - 感谢[@Taryn](https://github.com/taryn2016), 提供JavaScript题解。
 - 感谢[@WangXin](https://github.com/relish-wang), 提供C/C++/Python/Java题解。
@@ -69,6 +70,7 @@
 [1018-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1018/1018.c
 [1019-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1019/1019.cpp
 [1020-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1020/1020.cpp
+[1021-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1021/1021.cpp
 
 [1012-py]: https://github.com/taryn2016/coding/blob/master/src/basic/_1012/1012.py
 
@@ -107,4 +109,5 @@
 [1014-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1014/Main.java
 [1016-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1016/Main.java
 [1017-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1017/Main.java
+[1021-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1021/Main.java
 
