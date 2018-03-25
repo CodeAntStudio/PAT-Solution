@@ -34,6 +34,7 @@
 | 1020 | [月饼 (25)][1020]             | [✅][1020-c] |              |                |                |
 | 1021 | [个位数统计 (15)][1021]         | [✅][1021-c] |              |                | [✅][1021-java]  |
 | 1022 | [D进制的A+B (20)][1022]         | [✅][1022-c] |              |                | [✅][1022-java]  |
+| 1023 | [组个最小数 (20)][1023]         | [✅][1023-c] |              |                | [✅][1023-java]  |
  
 ## 贡献者名单
 - 感谢[@Taryn](https://github.com/taryn2016), 提供JavaScript题解。
@@ -73,6 +74,7 @@
 [1020-c]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1020/1020.cpp
 [1021-c]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1021/1021.cpp
 [1022-c]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1022/1022.cpp
+[1023-c]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1023/1023.cpp
 
 [1012-py]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1012/1012.py
 
@@ -113,4 +115,5 @@
 [1017-java]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1017/Main.java
 [1021-java]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1021/Main.java
 [1022-java]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1022/Main.java
+[1023-java]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1023/Main.java
 
