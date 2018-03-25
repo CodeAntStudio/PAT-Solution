@@ -33,6 +33,7 @@
 | 1019 | [数字黑洞 (20)][1019]           | [✅][1019-c] |              |                |                |
 | 1020 | [月饼 (25)][1020]             | [✅][1020-c] |              |                |                |
 | 1021 | [个位数统计 (15)][1021]         | [✅][1021-c] |              |                | [✅][1021-java]  |
+| 1022 | [D进制的A+B (20)][1022]         | [✅][1022-c] |              |                | [✅][1022-java]  |
  
 ## 贡献者名单
 - 感谢[@Taryn](https://github.com/taryn2016), 提供JavaScript题解。
@@ -40,74 +41,76 @@
 
 [logo]: https://github.com/taryn2016/PAT-Solution/blob/master/res/img/logo.gif
 
-[1001]: https://github.com/taryn2016/coding/blob/master/tips/1001/README.md
-[1002]: https://github.com/taryn2016/coding/blob/master/tips/1002/README.md
-[1003]: https://github.com/taryn2016/coding/blob/master/tips/1003/README.md
-[1004]: https://github.com/taryn2016/coding/blob/master/tips/1004/README.md
-[1005]: https://github.com/taryn2016/coding/blob/master/tips/1005/README.md
-[1006]: https://github.com/taryn2016/coding/blob/master/tips/1006/README.md
-[1007]: https://github.com/taryn2016/coding/blob/master/tips/1007/README.md
-[1008]: https://github.com/taryn2016/coding/blob/master/tips/1008/README.md
-[1009]: https://github.com/taryn2016/coding/blob/master/tips/1009/README.md
-[1010]: https://github.com/taryn2016/coding/blob/master/tips/1010/README.md
-[1011]: https://github.com/taryn2016/coding/blob/master/tips/1011/README.md
-[1012]: https://github.com/taryn2016/coding/blob/master/tips/1012/README.md
-[1013]: https://github.com/taryn2016/coding/blob/master/tips/1013/README.md
-[1014]: https://github.com/taryn2016/coding/blob/master/tips/1014/README.md
-[1015]: https://github.com/taryn2016/coding/blob/master/tips/1015/README.md
-[1016]: https://github.com/taryn2016/coding/blob/master/tips/1016/README.md
-[1017]: https://github.com/taryn2016/coding/blob/master/tips/1017/README.md
-[1018]: https://github.com/taryn2016/coding/blob/master/tips/1018/README.md
-[1019]: https://github.com/taryn2016/coding/blob/master/tips/1019/README.md
-[1020]: https://github.com/taryn2016/coding/blob/master/tips/1020/README.md
+[1001]: https://github.com/taryn2016/PAT-Solution/blob/master/tips/1001/README.md
+[1002]: https://github.com/taryn2016/PAT-Solution/blob/master/tips/1002/README.md
+[1003]: https://github.com/taryn2016/PAT-Solution/blob/master/tips/1003/README.md
+[1004]: https://github.com/taryn2016/PAT-Solution/blob/master/tips/1004/README.md
+[1005]: https://github.com/taryn2016/PAT-Solution/blob/master/tips/1005/README.md
+[1006]: https://github.com/taryn2016/PAT-Solution/blob/master/tips/1006/README.md
+[1007]: https://github.com/taryn2016/PAT-Solution/blob/master/tips/1007/README.md
+[1008]: https://github.com/taryn2016/PAT-Solution/blob/master/tips/1008/README.md
+[1009]: https://github.com/taryn2016/PAT-Solution/blob/master/tips/1009/README.md
+[1010]: https://github.com/taryn2016/PAT-Solution/blob/master/tips/1010/README.md
+[1011]: https://github.com/taryn2016/PAT-Solution/blob/master/tips/1011/README.md
+[1012]: https://github.com/taryn2016/PAT-Solution/blob/master/tips/1012/README.md
+[1013]: https://github.com/taryn2016/PAT-Solution/blob/master/tips/1013/README.md
+[1014]: https://github.com/taryn2016/PAT-Solution/blob/master/tips/1014/README.md
+[1015]: https://github.com/taryn2016/PAT-Solution/blob/master/tips/1015/README.md
+[1016]: https://github.com/taryn2016/PAT-Solution/blob/master/tips/1016/README.md
+[1017]: https://github.com/taryn2016/PAT-Solution/blob/master/tips/1017/README.md
+[1018]: https://github.com/taryn2016/PAT-Solution/blob/master/tips/1018/README.md
+[1019]: https://github.com/taryn2016/PAT-Solution/blob/master/tips/1019/README.md
+[1020]: https://github.com/taryn2016/PAT-Solution/blob/master/tips/1020/README.md
 
-[1012-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1012/1012.c
-[1013-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1013/1013.cpp
-[1014-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1014/1014.c
-[1015-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1015/1015.cpp
-[1016-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1016/1016.c
-[1017-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1017/1017.c
-[1018-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1018/1018.c
-[1019-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1019/1019.cpp
-[1020-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1020/1020.cpp
-[1021-c]: https://github.com/taryn2016/coding/blob/master/src/basic/_1021/1021.cpp
+[1012-c]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1012/1012.c
+[1013-c]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1013/1013.cpp
+[1014-c]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1014/1014.c
+[1015-c]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1015/1015.cpp
+[1016-c]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1016/1016.c
+[1017-c]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1017/1017.c
+[1018-c]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1018/1018.c
+[1019-c]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1019/1019.cpp
+[1020-c]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1020/1020.cpp
+[1021-c]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1021/1021.cpp
+[1022-c]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1022/1022.cpp
 
-[1012-py]: https://github.com/taryn2016/coding/blob/master/src/basic/_1012/1012.py
+[1012-py]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1012/1012.py
 
-[1001-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1001/1001.js
-[1002-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1002/1002.js
-[1003-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1003/1003.js
-[1004-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1004/1004.js
-[1005-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1005/1005.js
-[1006-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1006/1006.js
-[1007-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1007/1007.js
-[1008-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1008/1008.js
-[1009-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1009/1009.js
-[1010-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1010/1010.js
-[1011-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1011/1011.js
-[1012-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1012/1012.js
-[1013-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1013/1013.js
-[1014-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1014/1014.js
-[1015-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1015/1015.js
-[1016-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1016/1016.js
-[1017-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1017/1017.js
-[1018-js]: https://github.com/taryn2016/coding/blob/master/src/basic/_1018/1018.js
+[1001-js]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1001/1001.js
+[1002-js]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1002/1002.js
+[1003-js]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1003/1003.js
+[1004-js]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1004/1004.js
+[1005-js]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1005/1005.js
+[1006-js]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1006/1006.js
+[1007-js]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1007/1007.js
+[1008-js]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1008/1008.js
+[1009-js]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1009/1009.js
+[1010-js]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1010/1010.js
+[1011-js]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1011/1011.js
+[1012-js]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1012/1012.js
+[1013-js]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1013/1013.js
+[1014-js]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1014/1014.js
+[1015-js]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1015/1015.js
+[1016-js]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1016/1016.js
+[1017-js]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1017/1017.js
+[1018-js]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1018/1018.js
 
-[1001-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1001/Main.java
-[1002-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1002/Main.java
-[1003-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1003/Main.java
-[1004-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1004/Main.java
-[1005-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1005/Main.java
-[1006-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1006/Main.java
-[1007-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1007/Main.java
-[1008-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1008/Main.java
-[1009-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1009/Main.java
-[1010-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1010/Main.java
-[1011-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1011/Main.java
-[1012-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1012/Main.java
-[1013-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1013/Main.java
-[1014-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1014/Main.java
-[1016-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1016/Main.java
-[1017-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1017/Main.java
-[1021-java]: https://github.com/taryn2016/coding/blob/master/src/basic/_1021/Main.java
+[1001-java]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1001/Main.java
+[1002-java]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1002/Main.java
+[1003-java]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1003/Main.java
+[1004-java]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1004/Main.java
+[1005-java]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1005/Main.java
+[1006-java]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1006/Main.java
+[1007-java]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1007/Main.java
+[1008-java]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1008/Main.java
+[1009-java]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1009/Main.java
+[1010-java]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1010/Main.java
+[1011-java]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1011/Main.java
+[1012-java]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1012/Main.java
+[1013-java]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1013/Main.java
+[1014-java]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1014/Main.java
+[1016-java]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1016/Main.java
+[1017-java]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1017/Main.java
+[1021-java]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1021/Main.java
+[1022-java]: https://github.com/taryn2016/PAT-Solution/blob/master/src/basic/_1022/Main.java
 
