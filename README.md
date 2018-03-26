@@ -62,6 +62,9 @@
 [1018]: ./tips/1018/README.md
 [1019]: ./tips/1019/README.md
 [1020]: ./tips/1020/README.md
+[1021]: ./tips/1021/README.md
+[1022]: ./tips/1022/README.md
+[1023]: ./tips/1023/README.md
 
 [1012-c]: ./src/basic/_1012/1012.c
 [1013-c]: ./src/basic/_1013/1013.cpp
