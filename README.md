@@ -35,7 +35,7 @@
 | 1021 | [个位数统计 (15)][1021]         | [✅][1021-c] |              |                | [✅][1021-java]  |
 | 1022 | [D进制的A+B (20)][1022]         | [✅][1022-c] |              |                | [✅][1022-java]  |
 | 1023 | [组个最小数 (20)][1023]         | [✅][1023-c] |              |                | [✅][1023-java]  |
-
+| 1024 | [科学计数法 (20)][1024]         | [✅][1024-c] |              |                |                  |
 ## 贡献者名单
 - 感谢[@Taryn](https://github.com/taryn2016), 提供JavaScript题解。
 - 感谢[@WangXin](https://github.com/relish-wang), 提供C/C++/Python/Java题解。
@@ -65,6 +65,7 @@
 [1021]: ./tips/1021/README.md
 [1022]: ./tips/1022/README.md
 [1023]: ./tips/1023/README.md
+[1024]: ./tips/1024/README.md
 
 [1012-c]: ./src/basic/_1012/1012.c
 [1013-c]: ./src/basic/_1013/1013.cpp
@@ -78,6 +79,7 @@
 [1021-c]: ./src/basic/_1021/1021.cpp
 [1022-c]: ./src/basic/_1022/1022.cpp
 [1023-c]: ./src/basic/_1023/1023.cpp
+[1024-c]: ./src/basic/_1024/1024.cpp
 
 [1012-py]: ./src/basic/_1012/1012.py
 
