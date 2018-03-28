@@ -36,6 +36,7 @@
 | 1022 | [D进制的A+B (20)][1022]         | [✅][1022-c] |              |                | [✅][1022-java]  |
 | 1023 | [组个最小数 (20)][1023]         | [✅][1023-c] |              |                | [✅][1023-java]  |
 | 1024 | [科学计数法 (20)][1024]         | [✅][1024-c] |              |                |                  |
+| 1025 | [反转链表 (25)][1025]         | [✅][1025-c] |              |                 |  [❌][1025-java]  |
  
 ## 贡献者名单
 - 感谢[@Taryn](https://github.com/taryn2016), 提供JavaScript题解。
@@ -67,6 +68,7 @@
 [1022]: ./tips/1022/README.md
 [1023]: ./tips/1023/README.md
 [1024]: ./tips/1024/README.md
+[1025]: ./tips/1025/README.md
 
 [1012-c]: ./src/basic/_1012/1012.c
 [1013-c]: ./src/basic/_1013/1013.cpp
@@ -81,6 +83,7 @@
 [1022-c]: ./src/basic/_1022/1022.cpp
 [1023-c]: ./src/basic/_1023/1023.cpp
 [1024-c]: ./src/basic/_1024/1024.cpp
+[1025-c]: ./src/basic/_1025/1025.cpp
 
 [1012-py]: ./src/basic/_1012/1012.py
 
@@ -122,4 +125,5 @@
 [1021-java]: ./src/basic/_1021/Main.java
 [1022-java]: ./src/basic/_1022/Main.java
 [1023-java]: ./src/basic/_1023/Main.java
+[1025-java]: ./src/basic/_1025/Main.java
 
