@@ -7,9 +7,10 @@
 
 ## 目录
 - [PAT乙级题解](#PAT乙级题解)
+- [PAT甲级题解](#PAT甲级题解)
 - [贡献者名单](#贡献者名单)
 
-## [PAT乙级题解](https://www.patest.cn/contests/pat-b-practise)
+## [PAT乙级](https://www.patest.cn/contests/pat-b-practise)题解
 | #    | 题解                         |    C/C++    |    Python    |  JavaScript  |      Java      |
 | :--- | :--------------------------- | :---------: | :----------: | :----------: | :------------: |
 | 1001 | [害死人不偿命的(3n+1)猜想 (15)][1001] |             |              | [✅][1001-js] | [✅][1001-java] |
@@ -38,39 +39,46 @@
 | 1024 | [科学计数法 (20)][1024]         | [✅][1024-c] |              |                |                  |
 | 1025 | [反转链表 (25)][1025]          | [✅][1025-c] |              |                 |  [❌][1025-java]  |
 | 1026 | [程序运行时间(15)][1026]        | [✅][1026-c] |              |                 |  [✅][1026-java]  |
- 
+
+## [PAT甲级](https://www.patest.cn/contests/pat-a-practise)题解
+| #    | 题解                         |    C/C++    |    Python    |  JavaScript  |      Java      |
+| :--- | :--------------------------- | :---------: | :----------: | :----------: | :------------: |
+| 1001 | [A+B Format (20)][1001-advanced] | [✅][1001-advanced-c] |              |          | [✅][1001-advanced-java] | 
+
 ## 贡献者名单
 - 感谢[@Taryn](https://github.com/taryn2016), 提供JavaScript题解。
 - 感谢[@WangXin](https://github.com/relish-wang), 提供C/C++/Python/Java题解。
 
 [logo]: ./res/img/logo.gif
 
-[1001]: ./tips/1001/README.md
-[1002]: ./tips/1002/README.md
-[1003]: ./tips/1003/README.md
-[1004]: ./tips/1004/README.md
-[1005]: ./tips/1005/README.md
-[1006]: ./tips/1006/README.md
-[1007]: ./tips/1007/README.md
-[1008]: ./tips/1008/README.md
-[1009]: ./tips/1009/README.md
-[1010]: ./tips/1010/README.md
-[1011]: ./tips/1011/README.md
-[1012]: ./tips/1012/README.md
-[1013]: ./tips/1013/README.md
-[1014]: ./tips/1014/README.md
-[1015]: ./tips/1015/README.md
-[1016]: ./tips/1016/README.md
-[1017]: ./tips/1017/README.md
-[1018]: ./tips/1018/README.md
-[1019]: ./tips/1019/README.md
-[1020]: ./tips/1020/README.md
-[1021]: ./tips/1021/README.md
-[1022]: ./tips/1022/README.md
-[1023]: ./tips/1023/README.md
-[1024]: ./tips/1024/README.md
-[1025]: ./tips/1025/README.md
-[1026]: ./tips/1026/README.md
+[1001]: tips/basic/1001/README.md
+[1002]: tips/basic/1002/README.md
+[1003]: tips/basic/1003/README.md
+[1004]: tips/basic/1004/README.md
+[1005]: tips/basic/1005/README.md
+[1006]: tips/basic/1006/README.md
+[1007]: tips/basic/1007/README.md
+[1008]: tips/basic/1008/README.md
+[1009]: tips/basic/1009/README.md
+[1010]: tips/basic/1010/README.md
+[1011]: tips/basic/1011/README.md
+[1012]: tips/basic/1012/README.md
+[1013]: tips/basic/1013/README.md
+[1014]: tips/basic/1014/README.md
+[1015]: tips/basic/1015/README.md
+[1016]: tips/basic/1016/README.md
+[1017]: tips/basic/1017/README.md
+[1018]: tips/basic/1018/README.md
+[1019]: tips/basic/1019/README.md
+[1020]: tips/basic/1020/README.md
+[1021]: tips/basic/1021/README.md
+[1022]: tips/basic/1022/README.md
+[1023]: tips/basic/1023/README.md
+[1024]: tips/basic/1024/README.md
+[1025]: tips/basic/1025/README.md
+[1026]: tips/basic/1026/README.md
+
+[1001-advanced]: tips/advanced/1001/README.md
 
 [1012-c]: ./src/basic/_1012/1012.c
 [1013-c]: ./src/basic/_1013/1013.cpp
@@ -87,6 +95,8 @@
 [1024-c]: ./src/basic/_1024/1024.cpp
 [1025-c]: ./src/basic/_1025/1025.cpp
 [1026-c]: ./src/basic/_1026/1026.c
+
+[1001-advanced-c]: ./src/advanced/_1001/1001.c
 
 [1012-py]: ./src/basic/_1012/1012.py
 
@@ -130,3 +140,5 @@
 [1023-java]: ./src/basic/_1023/Main.java
 [1025-java]: ./src/basic/_1025/Main.java
 [1026-java]: ./src/basic/_1026/Main.java
+
+[1001-advanced-java]: ./src/advanced/_1001/Main.java
