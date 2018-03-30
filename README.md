@@ -43,7 +43,8 @@
 ## [PAT甲级](https://www.patest.cn/contests/pat-a-practise)题解
 | #    | 题解                         |    C/C++    |    Python    |  JavaScript  |      Java      |
 | :--- | :--------------------------- | :---------: | :----------: | :----------: | :------------: |
-| 1001 | [A+B Format (20)][1001-advanced] | [✅][1001-advanced-c] |              |          | [✅][1001-advanced-java] | 
+| 1001 | [A+B Format (20)][1001-advanced]          | [✅][1001-advanced-c] |              |          | [✅][1001-advanced-java] | 
+| 1002 | [A+B for Polynomials (25)][1002-advanced] | [✅][1002-advanced-c] |              |          | [✅][1002-advanced-java] | 
 
 ## 贡献者名单
 - 感谢[@Taryn](https://github.com/taryn2016), 提供JavaScript题解。
@@ -79,6 +80,7 @@
 [1026]: tips/basic/1026/README.md
 
 [1001-advanced]: tips/advanced/1001/README.md
+[1002-advanced]: tips/advanced/1002/README.md
 
 [1012-c]: ./src/basic/_1012/1012.c
 [1013-c]: ./src/basic/_1013/1013.cpp
@@ -97,6 +99,7 @@
 [1026-c]: ./src/basic/_1026/1026.c
 
 [1001-advanced-c]: ./src/advanced/_1001/1001.c
+[1002-advanced-c]: ./src/advanced/_1002/1002.cpp
 
 [1012-py]: ./src/basic/_1012/1012.py
 
@@ -142,3 +145,4 @@
 [1026-java]: ./src/basic/_1026/Main.java
 
 [1001-advanced-java]: ./src/advanced/_1001/Main.java
+[1002-advanced-java]: ./src/advanced/_1002/Main.java
