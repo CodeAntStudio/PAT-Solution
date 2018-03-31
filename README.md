@@ -47,8 +47,9 @@
 | 1002 | [A+B for Polynomials (25)][1002-advanced] | [✅][1002-advanced-c] |              |          | [✅][1002-advanced-java] | 
 
 ## 贡献者名单
+- 感谢[@Tobaaraxiu](https://github.com/Tobaaraxiu), 提供Java题解。
 - 感谢[@Taryn](https://github.com/taryn2016), 提供JavaScript题解。
-- 感谢[@WangXin](https://github.com/relish-wang), 提供C/C++/Python/Java题解。
+- 感谢[@WangXin](https://github.com/relish-wang), 提供C/C++/Python题解。
 
 [logo]: ./res/img/logo.gif
 
