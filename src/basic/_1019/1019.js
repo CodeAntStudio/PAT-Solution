@@ -31,6 +31,9 @@ function deal(input) {
       arr.push(y + ' - ' + x + ' = 6174')
       break
     }
+    if (result.toString().length < 4) {
+      result = repeat('0',(4-result.toString().length)) + result.toString()
+    }
     arr.push(y + ' - ' + x + ' = ' + result)
   }
   return arr
