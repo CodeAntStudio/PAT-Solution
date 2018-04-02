@@ -18,7 +18,7 @@ function deal(input) {
   var result = input
   while(1) {
     if (result.toString().length < 4) {
-      result = result + repeat('0',(4-result.length))
+      result = result.toString() + repeat('0',(4-result.toString().length))
     }
     x = result.toString().split('').sort().join('')
     y = result.toString().split('').sort().reverse().join('')
@@ -35,6 +35,6 @@ function deal(input) {
   }
   return arr
 }
-function repeat(str , n){
+function repeat(str, n){
   return new Array(n+1).join(str);
 }
