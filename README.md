@@ -39,6 +39,7 @@
 | 1024 | [科学计数法 (20)][1024]         | [✅][1024-c] |              |                |                  |
 | 1025 | [反转链表 (25)][1025]          | [✅][1025-c] |              |                 |  [❌][1025-java]  |
 | 1026 | [程序运行时间(15)][1026]        | [✅][1026-c] |              |                 |  [✅][1026-java]  |
+| 1027 | [打印沙漏(20)][1027]            |              |              |                 |  [✅][1027-java]  |
 
 ## [PAT甲级](https://www.patest.cn/contests/pat-a-practise)题解
 | #    | 题解                         |    C/C++    |    Python    |  JavaScript  |      Java      |
@@ -79,6 +80,7 @@
 [1024]: tips/basic/1024/README.md
 [1025]: tips/basic/1025/README.md
 [1026]: tips/basic/1026/README.md
+[1027]: tips/basic/1027/README.md
 
 [1001-advanced]: tips/advanced/1001/README.md
 [1002-advanced]: tips/advanced/1002/README.md
@@ -144,6 +146,7 @@
 [1023-java]: ./src/basic/_1023/Main.java
 [1025-java]: ./src/basic/_1025/Main.java
 [1026-java]: ./src/basic/_1026/Main.java
+[1027-java]: ./src/basic/_1027/Main.java
 
 [1001-advanced-java]: ./src/advanced/_1001/Main.java
 [1002-advanced-java]: ./src/advanced/_1002/Main.java
