@@ -41,6 +41,7 @@
 | 1026 | [程序运行时间(15)][1026]        | [✅][1026-c] |              |                 |  [✅][1026-java]  |
 | 1027 | [打印沙漏(20)][1027]            |              |              |                 |  [✅][1027-java]  |
 | 1028 | [人口普查(20)][1028]            | [✅][1028-c] |              |                 |  [❌][1028-java]  |
+| 1029 | [旧键盘(20)][1029]             |              |              |                 |  [✅][1029-java]  |
 
 ## [PAT甲级](https://www.patest.cn/contests/pat-a-practise)题解
 | #    | 题解                         |    C/C++    |    Python    |  JavaScript  |      Java      |
@@ -83,6 +84,7 @@
 [1026]: tips/basic/1026/README.md
 [1027]: tips/basic/1027/README.md
 [1028]: tips/basic/1028/README.md
+[1029]: tips/basic/1029/README.md
 
 [1001-advanced]: tips/advanced/1001/README.md
 [1002-advanced]: tips/advanced/1002/README.md
@@ -151,6 +153,7 @@
 [1026-java]: ./src/basic/_1026/Main.java
 [1027-java]: ./src/basic/_1027/Main.java
 [1028-java]: ./src/basic/_1028/Main.java
+[1029-java]: ./src/basic/_1029/Main.java
 
 [1001-advanced-java]: ./src/advanced/_1001/Main.java
 [1002-advanced-java]: ./src/advanced/_1002/Main.java
